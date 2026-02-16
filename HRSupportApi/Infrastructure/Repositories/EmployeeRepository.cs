@@ -20,7 +20,7 @@ namespace HRSupportApi.Infrastructure.Repositories
     {
         private readonly DapperContext _context;
 
-        public EmployeeRepository(DapperContext context)
+        public EmployeeRepository(DapperContext context) { _context = context; }
         {
             _context = context;
         }
